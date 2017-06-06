@@ -1,0 +1,91 @@
+[
+  {
+    "part": 0,
+    "part_name": "Hello! I'm RMMaturity bot, I will assess risk management maturity level in your company.\n\nI will ask you a lot of questions about your organization and based on your answers give you a result",
+    "blocks":
+            [
+              {
+                "block_name": "Let's start from \"General information about company\"",
+                "settings": [["MANDATORY"]],
+                "questions":
+                        [
+                          {
+                            "text": "Please, indicate the country of your organisation headquarter",
+                            "choice": [["KB_COUNTRY"]],
+                            "condition_required": [],
+                            "condition": [],
+                            "commands": [["COUNTRY"]]
+                          },
+                          {
+                            "text": "Please, indicate the city of your organisation headquarter",
+                            "choice": [["KB_CITY"]],
+                            "condition_required": [],
+                            "condition": [],
+                            "commands": [["CITY"]]
+                          },
+                          {
+                            "text": "Please, indicate the industry in which your organization operates",
+                            "choice": [["KB_INDUSTRY"]],
+                            "condition_required": [],
+                            "condition": [],
+                            "commands": [["INDUSTRY"]]
+                          },
+                          {
+                            "text": "Further, you will be promoted to answer 36 questions, every question has three answer options , каждый вариант это утверждение. Вам необходимо выбрать утверждение, которое наиболее соответствует вашей компании! Если вы готовы, запаситесь терпением и нажмите \"Продолжить\". Помните, вы можете продолжить отвечать на вопросы в любой момент, с любого устройства, не торопитесь, чем более точную информацию вы предоставите нам, тем более точную информацию вы получите",
+                            "choice": [["Continue"]],
+                            "condition_required": [],
+                            "condition": [],
+                            "commands": [["FORCE_KB_REPLY"]]
+                          }
+                        ]
+              }
+            ]
+  },
+  {
+    "part": 1,
+    "part_name": "Part A: Risk-based decision making and integration of risk management into business processes",
+    "blocks":
+    [
+      {
+        "block_name": "Block 1: Integration risk management into planning and budgeting",
+        "settings": [["MANDATORY"]],
+        "questions":
+        [
+          {
+            "text": "Integration into planning and budgeting.\n\nStatement 1:\n\nRisks related to the achievement of strategic goals and the organization's budget are not analyzed or analyzed after the fact.\n\nStatement 2:\n\nThe results of the analysis of risks associated with the achievement of strategic goals and the organization's budget are considered by the management when setting goals forming the budget, but this procedure is not regulated.\n\nStatement 3:\n\nRisk management tools are integrated directly into planning and budgeting processes. Goals, objectives and annual budget are formed based on risk analysis.",
+            "choice": [
+              ["First statement"],
+              ["Second statement"],
+              ["Third statement"]
+            ],
+            "condition_required": [],
+            "condition": [],
+            "commands": [["FORCE_KB_REPLY"]]
+          },
+          {
+            "text": "The impact of risks on achieving the Goal.\n\nStatement 1:\n\nChanges in strategic objectives and budgets are implemented after the implementation of risks, rather than preventively.\n\nStatement 2:\n\nThe organization has agreed on the frequency of the risk analysis procedure. Risk analysis is initiated and carried out on time, but this procedure is not directly connected with the actualization of strategic goals and budgets.\n\nStatement 3:\n\nRisk analysis directly affects the revision of strategic goals and budgets of the company",
+            "choice": [
+              ["First statement"],
+              ["Second statement"],
+              ["Third statement"]
+            ],
+            "condition_required": [],
+            "condition": [],
+            "commands": [["FORCE_KB_REPLY"]]
+          },
+          {
+            "text": "Risk appetite\n\nStatement 1:\n\nThe company does not define an approach to establishing a risk appetite (tolerance to risks).\n\nStatement 2:\n\nThe company plans to establish a risk-appetite for the most significant risks in the nearest future.\n\nStatement 3:\n\nThe company has a risk-appetite, which is approved in the form of an independent document by the board of directors.",
+            "choice": [
+              ["First statement"],
+              ["Second statement"],
+              ["Third statement"]
+            ],
+            "condition_required": [],
+            "condition": [],
+            "commands": [["FORCE_KB_REPLY"]]
+          }
+        ]
+      }
+    ]
+  }
+]

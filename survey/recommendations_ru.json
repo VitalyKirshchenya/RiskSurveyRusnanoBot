@@ -1,0 +1,230 @@
+[
+  {
+    "part": 1,
+    "part_name": "Part A",
+    "blocks":
+            [
+              {
+                "block_name": "Интеграция управления рисками в планирование и бюджетирование",
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          },
+                          {
+                            "text": "question 2"
+                          },
+                          {
+                            "text": "question 3"
+                          }
+                        ]
+              },
+              {
+                "block_name": "Интеграция управления рисками в принятие управленческих и инвестиционных решений в течение года",
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          },
+                          {
+                            "text": "question 2"
+                          },
+                          {
+                            "text": "question 3"
+                          },
+                          {
+                            "text": "question 4"
+                          }
+                        ]
+              },
+              {
+                "block_name": "Интеграция управления рисками в основные операционные процессы",
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          },
+                          {
+                            "text": "question 2"
+                          },
+                          {
+                            "text": "question 3"
+                          },
+                          {
+                            "text": "question 4"
+                          },
+                          {
+                            "text": "question 5"
+                          },
+                          {
+                            "text": "question 6"
+                          }
+                        ]
+              },
+              {
+                "block_name": "Интеграция управления рисками в функции бэк-офиса",
+                "settings": [["MANDATORY"]],
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          },
+                          {
+                            "text": "question 2"
+                          }
+                        ]
+              },
+              {
+                "block_name": "Раскрытие информации об управлении рисками",
+                "settings": [["MANDATORY"]],
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          },
+                          {
+                            "text": "question 2"
+                          }
+                        ]
+              }
+            ]
+
+  },
+  {
+    "part": 2,
+    "part_name": "Part B",
+    "blocks":
+            [
+              {
+                "block_name": "Ответственность за управление рисками",
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          },
+                          {
+                            "text": "question 2"
+                          },
+                          {
+                            "text": "question 3"
+                          }
+                        ]
+              },
+              {
+                "block_name": "Компетенции по управлению рисками",
+                "settings": [["MANDATORY"]],
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          },
+                          {
+                            "text": "question 2"
+                          },
+                          {
+                            "text": "question 3"
+                          }
+                        ]
+              },
+              {
+                "block_name": "Block 3",
+                "settings": [["MANDATORY"]],
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          }
+                        ]
+              },
+              {
+                "block_name": "Block 4",
+                "settings": [["MANDATORY"]],
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          }
+                        ]
+              }
+            ]
+
+  },
+  {
+    "part": 3,
+    "part_name": "Part C",
+    "blocks":
+            [
+              {
+                "block_name": "Block 1",
+                "settings": [["MANDATORY"]],
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          },
+                          {
+                            "text": "question 2"
+                          },
+                          {
+                            "text": "question 3"
+                          },
+                          {
+                            "text": "question 4"
+                          },
+                          {
+                            "text": "question 5"
+                          }
+                        ]
+              },
+              {
+                "block_name": "Block 2",
+                "settings": [["MANDATORY"]],
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          },
+                          {
+                            "text": "question 2"
+                          }
+                        ]
+              }
+            ]
+
+  },
+  {
+    "part": 4,
+    "part_name": "Part B",
+    "blocks":
+            [
+              {
+                "block_name": "Block 1",
+                "settings": [["MANDATORY"]],
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          },
+                          {
+                            "text": "question 2"
+                          }
+                        ]
+              },
+              {
+                "block_name": "Block 2",
+                "settings": [["MANDATORY"]],
+                "questions":
+                        [
+                          {
+                            "text": "question 1"
+                          },
+                          {
+                            "text": "question 2"
+                          }
+                        ]
+              }
+            ]
+
+  }
+
+]
